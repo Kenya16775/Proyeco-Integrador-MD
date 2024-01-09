@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Roboto:wght@100;300&family=Rubik+Bubbles&family=Rubik+Moonrocks&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Rubik+Bubbles&family=Rubik+Moonrocks&family=Seymour+One&display=swap');
+body {
+    background-image: url(/images/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Rubik Moonrocks', sans-serif;
+    font-size: 3vw;
+}
+
+img {
+    width: 100px;
+    height: 10 0px;
+}
+
+p {
+    color: white;
+    margin: 10%;
+    padding: 3%;
+    border-radius: 5%;
+    text-align: center;
+    background-color: rgb(50, 77, 128, 0.8);
+    font-family: 'Rubik Bubbles', system-ui;
+    width: 50%;
+}
+
+.principal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planets {
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+
+.planet-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.planet-img {
+    display: flex;
+    justify-content: center;
+}
+
+.planet-text {
+    display: flex;
+    justify-content: center;
+}
